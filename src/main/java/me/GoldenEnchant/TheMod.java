@@ -32,61 +32,87 @@ public class TheMod {
     	FMLCommonHandler.instance().bus().register(this);
     	MinecraftForge.EVENT_BUS.register(this);
 
+//Template t6Enchants.put(EnumChatFormatting.BLUE + "",EnumChatFormatting.GOLD + "");
+
 //SHEEP Enchantments 
 t6Enchants.put(EnumChatFormatting.BLUE + "Rainbow II",EnumChatFormatting.RED + "R" + EnumChatFormatting.GOLD + "A" + EnumChatFormatting.YELLOW + "I" + EnumChatFormatting.GREEN + "N" + EnumChatFormatting.BLUE + "B" + EnumChatFormatting.DARK_PURPLE + "O" + EnumChatFormatting.LIGHT_PURPLE + "W " + EnumChatFormatting.DARK_GRAY + "I" + EnumChatFormatting.WHITE + "I");
 t6Enchants.put("Rainbow I",EnumChatFormatting.RED + "R" + EnumChatFormatting.GOLD + "A" + EnumChatFormatting.YELLOW + "I" + EnumChatFormatting.GREEN + "N" + EnumChatFormatting.BLUE + "B" + EnumChatFormatting.DARK_PURPLE + "O" + EnumChatFormatting.LIGHT_PURPLE + "W " + EnumChatFormatting.WHITE + "I");
 
 //Sword Enchantments
-t6Enchants.put(EnumChatFormatting.BLUE + "Bane of Arthropods VII",EnumChatFormatting.RED + "Bane of Arthropods VII");
-t6Enchants.put(EnumChatFormatting.BLUE + "Bane of Arthropods VI",EnumChatFormatting.GOLD + "Bane of Arthropods VI");
+	//T10
 t6Enchants.put(EnumChatFormatting.BLUE + "Champion X",EnumChatFormatting.RED + "Champion" + EnumChatFormatting.BOLD + " X");
+	//T9
 t6Enchants.put(EnumChatFormatting.BLUE + "Champion IX",EnumChatFormatting.GOLD + "Champion" + EnumChatFormatting.BOLD + " IX");
+	//T8
 t6Enchants.put(EnumChatFormatting.BLUE + "Champion VIII",EnumChatFormatting.GOLD + "Champion VIII");
-t6Enchants.put(EnumChatFormatting.BLUE + "Cleave VI",EnumChatFormatting.GOLD + "Cleave VI");
+	//T7
+t6Enchants.put(EnumChatFormatting.BLUE + "Bane of Arthropods VII",EnumChatFormatting.RED + "Bane of Arthropods VII");
 t6Enchants.put(EnumChatFormatting.BLUE + "Critical VII",EnumChatFormatting.RED + "Critical VII");
+t6Enchants.put(EnumChatFormatting.BLUE + "Ender Slayer VII",EnumChatFormatting.RED + "Ender Slayer VII");
+t6Enchants.put(EnumChatFormatting.BLUE + "Giant Killer VII",EnumChatFormatting.RED + "Giant Killer VII");
+t6Enchants.put(EnumChatFormatting.BLUE + "Luck VII",EnumChatFormatting.RED + "Luck VII");
+t6Enchants.put(EnumChatFormatting.BLUE + "Sharpness VII",EnumChatFormatting.RED + "Sharpness VII");
+t6Enchants.put(EnumChatFormatting.BLUE + "Smite VII",EnumChatFormatting.RED + "Smite VII");
+t6Enchants.put(EnumChatFormatting.BLUE + "Thunderlord VII",EnumChatFormatting.RED + "Thunderlord VII");
+t6Enchants.put(EnumChatFormatting.BLUE + "Titan Killer VII",EnumChatFormatting.RED + "Titan Killer VII");
+	//T6
+t6Enchants.put(EnumChatFormatting.BLUE + "Bane of Arthropods VI",EnumChatFormatting.GOLD + "Bane of Arthropods VI");
+t6Enchants.put(EnumChatFormatting.BLUE + "Cleave VI",EnumChatFormatting.GOLD + "Cleave VI");
 t6Enchants.put(EnumChatFormatting.BLUE + "Critical VI",EnumChatFormatting.GOLD + "Critical VI");
 t6Enchants.put(EnumChatFormatting.BLUE + "Cubism VI",EnumChatFormatting.GOLD + "Cubism VI");
-t6Enchants.put(EnumChatFormatting.BLUE + "Dragon Hunter V",EnumChatFormatting.RED + "Dragon Hunter V");
-t6Enchants.put(EnumChatFormatting.BLUE + "Ender Slayer VII",EnumChatFormatting.RED + "Ender Slayer VII");
 t6Enchants.put(EnumChatFormatting.BLUE + "Ender Slayer VI",EnumChatFormatting.GOLD + "Ender Slayer VI");
 t6Enchants.put(EnumChatFormatting.BLUE + "Execute VI",EnumChatFormatting.RED + "Execute VI");
-t6Enchants.put(EnumChatFormatting.BLUE + "Experience IV",EnumChatFormatting.GOLD + "Experience IV");
-t6Enchants.put(EnumChatFormatting.BLUE + "Fire Aspect III",EnumChatFormatting.RED + "Fire Aspect III");
-t6Enchants.put(EnumChatFormatting.BLUE + "First Strike V",EnumChatFormatting.RED + "First Strike V");
-t6Enchants.put(EnumChatFormatting.BLUE + "Giant Killer VII",EnumChatFormatting.RED + "Giant Killer VII");
 t6Enchants.put(EnumChatFormatting.BLUE + "Giant Killer VI",EnumChatFormatting.GOLD + "Giant Killer VI");
-t6Enchants.put(EnumChatFormatting.BLUE + "Impaling III",EnumChatFormatting.GOLD + "Impaling III");
-t6Enchants.put("9Knockback II","mKnockback");
-t6Enchants.put("9Knockback I","mKnockback");
 t6Enchants.put(EnumChatFormatting.BLUE + "Lethality VI",EnumChatFormatting.GOLD + "Lethality VI");
-t6Enchants.put(EnumChatFormatting.BLUE + "Life Steal IV",EnumChatFormatting.GOLD + "Life Steal IV");
-t6Enchants.put(EnumChatFormatting.BLUE + "Life Steal V",EnumChatFormatting.RED + "Life Steal V");
-t6Enchants.put(EnumChatFormatting.BLUE + "Looting IV",EnumChatFormatting.GOLD + "Looting IV");
-t6Enchants.put(EnumChatFormatting.BLUE + "Looting V",EnumChatFormatting.RED + "Looting V");
-t6Enchants.put(EnumChatFormatting.BLUE + "Luck VII",EnumChatFormatting.RED + "Luck VII");
 t6Enchants.put(EnumChatFormatting.BLUE + "Luck VI",EnumChatFormatting.GOLD + "Luck VI");
-t6Enchants.put(EnumChatFormatting.BLUE + "Mana Steal III",EnumChatFormatting.GOLD + "Mana Steal III");
 t6Enchants.put(EnumChatFormatting.BLUE + "Prosecute VI",EnumChatFormatting.GOLD + "Prosecute VI");
-t6Enchants.put(EnumChatFormatting.BLUE + "Scavenger IV",EnumChatFormatting.GOLD + "Scavenger IV");
-t6Enchants.put(EnumChatFormatting.BLUE + "Scavenger V",EnumChatFormatting.GOLD.toString() + EnumChatFormatting.BOLD + "Scavenger V");
-t6Enchants.put(EnumChatFormatting.BLUE + "Sharpness VII",EnumChatFormatting.RED + "Sharpness VII");
 t6Enchants.put(EnumChatFormatting.BLUE + "Sharpness VI",EnumChatFormatting.GOLD + "Sharpness VI");
-t6Enchants.put(EnumChatFormatting.BLUE + "Smite VII",EnumChatFormatting.RED + "Smite VII");
 t6Enchants.put(EnumChatFormatting.BLUE + "Smite VI",EnumChatFormatting.GOLD + "Smite VI");
-t6Enchants.put(EnumChatFormatting.BLUE + "Smoldering V",EnumChatFormatting.GOLD + "Smoldering V");
-t6Enchants.put(EnumChatFormatting.BLUE + "Syphon V",EnumChatFormatting.RED + "Syphon V");
-t6Enchants.put(EnumChatFormatting.BLUE + "Syphone IV",EnumChatFormatting.GOLD + "Syphon IV");
 t6Enchants.put(EnumChatFormatting.BLUE + "Thunderbolt VI",EnumChatFormatting.GOLD + "Thunderbolt VI");
-t6Enchants.put(EnumChatFormatting.BLUE + "Thunderlord VII",EnumChatFormatting.RED + "Thunderlord VII");
 t6Enchants.put(EnumChatFormatting.BLUE + "Thunderlord VI",EnumChatFormatting.GOLD + "Thunderlord VI");
-t6Enchants.put(EnumChatFormatting.BLUE + "Titan Killer VII",EnumChatFormatting.RED + "Titan Killer VII");
 t6Enchants.put(EnumChatFormatting.BLUE + "Titan Killer VI",EnumChatFormatting.GOLD + "Titan Killer VI");
-t6Enchants.put(EnumChatFormatting.BLUE + "Triple-Strike V",EnumChatFormatting.GOLD + "Triple-Strike V");
 t6Enchants.put(EnumChatFormatting.BLUE + "Vampirism VI",EnumChatFormatting.GOLD + "Vampirism VI");
 t6Enchants.put(EnumChatFormatting.BLUE + "Venomous VI",EnumChatFormatting.GOLD + "Venomous VI");
+	//T5
+t6Enchants.put(EnumChatFormatting.BLUE + "Dragon Hunter V",EnumChatFormatting.RED + "Dragon Hunter V");
+t6Enchants.put(EnumChatFormatting.BLUE + "First Strike V",EnumChatFormatting.RED + "First Strike V");
+t6Enchants.put(EnumChatFormatting.BLUE + "Life Steal V",EnumChatFormatting.RED + "Life Steal V");
+t6Enchants.put(EnumChatFormatting.BLUE + "Looting V",EnumChatFormatting.RED + "Looting V");
+t6Enchants.put(EnumChatFormatting.BLUE + "Scavenger V",EnumChatFormatting.GOLD.toString() + EnumChatFormatting.BOLD + "Scavenger V");
+t6Enchants.put(EnumChatFormatting.BLUE + "Syphon V",EnumChatFormatting.RED + "Syphon V");
+t6Enchants.put(EnumChatFormatting.BLUE + "Smoldering V",EnumChatFormatting.GOLD + "Smoldering V");
+t6Enchants.put(EnumChatFormatting.BLUE + "Triple-Strike V",EnumChatFormatting.GOLD + "Triple-Strike V");
 t6Enchants.put(EnumChatFormatting.BLUE + "Vicious V",EnumChatFormatting.GOLD + "Vicious V");
-
+	//T4
+t6Enchants.put(EnumChatFormatting.BLUE + "Experience IV",EnumChatFormatting.GOLD + "Experience IV");
+t6Enchants.put(EnumChatFormatting.BLUE + "Life Steal IV",EnumChatFormatting.GOLD + "Life Steal IV");
+t6Enchants.put(EnumChatFormatting.BLUE + "Looting IV",EnumChatFormatting.GOLD + "Looting IV");
+t6Enchants.put(EnumChatFormatting.BLUE + "Scavenger IV",EnumChatFormatting.GOLD + "Scavenger IV");
+t6Enchants.put(EnumChatFormatting.BLUE + "Syphone IV",EnumChatFormatting.GOLD + "Syphon IV");
+	//T3
+t6Enchants.put(EnumChatFormatting.BLUE + "Fire Aspect III",EnumChatFormatting.RED + "Fire Aspect III");
+t6Enchants.put(EnumChatFormatting.BLUE + "Impaling III",EnumChatFormatting.GOLD + "Impaling III");
+t6Enchants.put(EnumChatFormatting.BLUE + "Mana Steal III",EnumChatFormatting.GOLD + "Mana Steal III");
+	//T2
+t6Enchants.put("9Knockback II","mKnockback");
+	//T1
+t6Enchants.put("9Knockback I","mKnockback");
 //Bow Enchantments
+t6Enchants.put(EnumChatFormatting.BLUE + "Chance V",EnumChatFormatting.RED + "Chance V");
+t6Enchants.put(EnumChatFormatting.BLUE + "Chance IV",EnumChatFormatting.GOLD + "Chance IV");
+t6Enchants.put(EnumChatFormatting.BLUE + "Dragon Tracer V",EnumChatFormatting.GOLD + "Dragon Tracer V");
+t6Enchants.put(EnumChatFormatting.BLUE + "Flame II",EnumChatFormatting.GOLD + "Flame II");
+t6Enchants.put(EnumChatFormatting.BLUE + "Infinite Quiver X",EnumChatFormatting.RED + "Infinite Quiver" + EnumChatFormatting.BOLD + "X");
+t6Enchants.put(EnumChatFormatting.BLUE + "Infinite Quiver IX",EnumChatFormatting.GOLD + "Infinite Quiver" + EnumChatFormatting.BOLD + "IX");
+t6Enchants.put(EnumChatFormatting.BLUE + "Infinite Quiver X",EnumChatFormatting.GOLD + "Infinite Quiver XIII");
+t6Enchants.put(EnumChatFormatting.BLUE + "Overload V",EnumChatFormatting.GOLD + "Overload V");
+t6Enchants.put(EnumChatFormatting.BLUE + "Piercing I",EnumChatFormatting.GOLD + "Piercing I");
+t6Enchants.put(EnumChatFormatting.BLUE + "Power VII",EnumChatFormatting.RED + "Power VII");
+t6Enchants.put(EnumChatFormatting.BLUE + "Power VI",EnumChatFormatting.GOLD + "Power VI");
+t6Enchants.put("9Punch II","mPunch");
+t6Enchants.put("9Punch I","mPunch");
+t6Enchants.put(EnumChatFormatting.BLUE + "Snipe IV",EnumChatFormatting.GOLD + "Snipe IV");
+//Universal Armour Enchantments
 
 //Head Enchantments
 
